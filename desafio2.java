@@ -12,11 +12,11 @@ public class desafio2 {
         int n, aux=1;
         n = sc.nextInt();
 
-        for(n = aux ; n <= n*n; n++){
+        for(n = aux ; n <= n*4; n++){
             if(n % 4 == 0){
                 System.out.println( "PuM");
             }else{
-                System.out.println(n);
+                System.out.print(n);
             }
         }
     }
